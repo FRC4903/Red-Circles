@@ -53,7 +53,7 @@ int main(int argc, char const *argv[]) {
 		p_strStorage = cvCreateMemStorage(0); // allocate necessary memory
 
 					// in		// out			// filter
-		cvSmooth(p_imgProcessed, p_imgProcessed, CV_GAUSSIAN, 9, 9);   // smooth the processed image
+		//cvSmooth(p_imgProcessed, p_imgProcessed, CV_GAUSSIAN, 9, 9);   // smooth the processed image
 
 		p_seqCircles = cvHoughCircles(p_imgProcessed, 
 									p_strStorage, 
